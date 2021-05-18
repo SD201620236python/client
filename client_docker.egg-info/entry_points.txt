@@ -1,0 +1,3 @@
+[console_script]
+cli_docker = main:main
+

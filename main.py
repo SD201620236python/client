@@ -1,10 +1,11 @@
 from flask import Flask
 
-app = Flask (__name__)
+app = Flask(__name__)
 
 @app.route('/info')
 def print_hi():
-    return 'Hi, Saionara(Cliente)'
+    return('/info.json')
 
 def main():
-    app.run('127.0.0.1', '5000')
+    app.run('127.0.1.0', '5000')
+
